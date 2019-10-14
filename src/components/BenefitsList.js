@@ -110,6 +110,7 @@ class BenefitsList extends React.Component{
         <MDBContainer className="my-5">
             <div>Total Employees: {employees.length}</div>
             <div>Total Dependents: {totalDependents}</div>
+            <div>Deductions Per Period: ${parseFloat(Math.round((totalCost/26) * 100) / 100).toFixed(2)}</div>
             <div>Total Yearly Cost: ${totalCost}</div>
         </MDBContainer>
         <MDBBtn className="mb-5" color="danger" onClick={() => this.setState({ employees: [] , totalCost: 0})}>Remove all employees...</MDBBtn>

@@ -34,7 +34,7 @@ const BenefitsForm = ({ currentEmployee, currentDependent, inputPerson, addEmplo
                   value={currentDependent}
                   name="currentDependent"
                   onChange={inputPerson}
-                  placeholder="Dependent Full Name"
+                  placeholder="Jane Smith"
                   id="depFullName1"
                   className="form-control"
                 />
