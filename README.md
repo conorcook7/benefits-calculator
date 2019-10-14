@@ -1,68 +1,58 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Benefits Calculator
 
-## Available Scripts
+This is a simple application that businesses can utilize to calculate the total costs for providing benefits packages for their employees.
 
-In the project directory, you can run:
+This implementation is going to be geared toward smaller businesses for now. 
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.<br />
+Here are the givens for this project:
+* The cost of benefits is $1000/year for each employee
+* Each dependent (children and possibly spouses) incurs a cost of
+$500/year
+* Anyone whose name starts with ‘A’ gets a 10% discount, employee or
+dependent
+* All employees are paid $2000 per paycheck before deductions
+* There are 26 paychecks in a year
+
+
+### Prerequisites
+
+1. Ensure you have [node.js](https://nodejs.org/en/) installed and updated on you machine.  Check current version with command `node -v` and that it is v10.16.0 or greater.
+
+
+### Installing and Running Benefits Calculator Locally
+
+1.  Fork and clone this repo.
+2. `cd` into project directory.
+3. run `npm install` to install dependencies.
+4. run `npm start`
+
+This runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
+The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `npm test`
+*Additional Commands*
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. `npm run build`
 
-### `npm run build`
+Builds the app for production to the `build` folder.<br>
+It correctly bundles the app in production mode and optimizes the build for the best performance.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The build is minified and the filenames include the hashes.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Testing & Output
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Current Issues  
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Author
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* **Conor Cook**
