@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+  @media only screen and (max-width: 376px) {
+    #depFullName1{
+      width: 100%;
+    }
+    .depButton{
+      width: 100%;
+      margin-top: 6px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    #depFullName1{
+      width: 100%;
+    }
+    .depButton{
+      width: 100%;
+      margin-top: 6px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    #depFullName1{
+      width: 100%;
+    }
+    .depButton{
+      width: 100%;
+      margin-top: 6px;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    #depFullName1{
+      width: 72%;
+    }
+    .depButton{
+      width: 27%;
+      margin-top: 0;
+    }
+  }
