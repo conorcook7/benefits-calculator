@@ -46,13 +46,9 @@ It correctly bundles the app in production mode and optimizes the build for the 
 The build is minified and the filenames include the hashes.
 
 
-## Testing & Output
-
-
-
-
 ## Current Issues  
 
+This application is intended for smaller businesses. That would be the current downfall. In a future update I would like to add the functionality of being able to pass in a file of some kind and be able to correctly handle the input and provide the correct corresponding output.
 
 
 ## Author
