@@ -2,11 +2,13 @@
 
 This is a simple application that businesses can utilize to calculate the total costs for providing benefits packages for their employees.
 
-This implementation is going to be geared toward smaller businesses for now. 
+This implementation is going to be geared toward smaller businesses for now.
+
+*Check out the live version here:* https://conorcook7.github.io/benefits-calculator/
 
 ## Getting Started
 
-Here are the givens for this project:
+Here are the given constraints for this project:
 * The cost of benefits is $1000/year for each employee
 * Each dependent (children and possibly spouses) incurs a cost of
 $500/year
@@ -34,7 +36,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-*Additional Commands*
+*Additional Command*
 
 1. `npm run build`
 
